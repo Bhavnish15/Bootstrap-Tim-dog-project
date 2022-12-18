@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+
+a,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  padding: 2% 15% 12%;
+}
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.download-button-1 i,
+.download-button-2 i {
+  padding-right: 5px;
+}
+.download-button-2 {
+  margin-left: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  color: white;
+  padding: 0 18px;
+}
+
+/* download botton */
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.img-title {
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* feature section */
+
+#features {
+  position: relative;
+  z-index: 0;
+  padding: 7% 15%;
+  background-color: white;
+  color: black;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box i {
+  padding-bottom: 3rem;
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.feature-box i:hover {
+  color: #ff4c68;
+}
+
+.feature-box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+  margin-top: 16px;
+}
+
+/* testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.6;
+}
+
+#testimonials em {
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  margin-bottom: 3%;
+}
+
+.press-logo {
+  width: 14%;
+
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 50px;
+  text-align: center;
+}
+.pricing-heading {
+  font-size: 2.4rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.pricing-column {
+  padding: 5% 5% 5% 3%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  align-content: center;
+  padding: 5%;
+}
+#cta h3 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  line-height: 7rem;
+}
+#cta button {
+  margin: 2rem;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding-top: 0.5rem;
+  margin: 1rem;
+}
+#footer i {
+  font-size: 2rem;
+  padding: 3rem 0 3rem;
+  margin: 1rem;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+#footer i:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-title {
+    transform: rotate(0);
+    position: static;
+  }
+}
